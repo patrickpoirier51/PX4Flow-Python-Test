@@ -5,6 +5,6 @@ Make sure that the PX4Flow is detectected by issuing command i2cdetect -r -y 1 (
 
 Edit the  def __init__(self, address, bus=smbus.SMBus(2)): and put the appropriate bus 1 for RPI or 2 for BBB
 
-Launch test
+Launch test_px4flow.py   and x_y velocities values are changing according to camera FOV movements
 
 
